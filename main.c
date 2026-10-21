@@ -2,7 +2,6 @@
 
 int main() {
   float a, b, c;
-  printf("nhap vao ba so a, b, c:");
   scanf("%f %f %f", &a, &b, &c);
   float max = a;
   if (b > max) {
