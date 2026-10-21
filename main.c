@@ -2,8 +2,8 @@
 
 int main() {
   int a, b, c;
-  scanf("%f %f %f", &a, &b, &c);
-  float max = a;
+  scanf("%d %d %d", &a, &b, &c);
+  int max = a;
   if (b > max) {
     max = b;
   }
