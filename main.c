@@ -12,7 +12,7 @@ if (scanf("%d", &t) == 1) {
     printf("NONG\n");
   }
   else { 
-    printf("RAT NONG\n");
+    printf("RAT_NONG\n");
   }
 }
 
