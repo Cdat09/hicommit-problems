@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  float a, b, c;
+  int a, b, c;
   scanf("%f %f %f", &a, &b, &c);
   float max = a;
   if (b > max) {
@@ -10,7 +10,7 @@ int main() {
   if (c > max) {
     max = c;
   }
-  printf("%.2f\n", max);
+  printf("%d", max);
   
 return 0;
 
