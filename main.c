@@ -11,7 +11,7 @@ int main() {
   if (c > max) {
     max = c;
   }
-  printf("So lon nhat la: %.2f\n", max)
+  printf("So lon nhat la: %.2f\n", max);
   return 0;
 
 }
