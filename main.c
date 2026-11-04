@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-  float dtb;
+  int dtb;
   int drl;
-  scanf("%f", &dtb);
+  scanf("%d", &dtb);
   scanf("%d", &drl);
   if (dtb >= 9.0) {
     printf("XUAT_SAC");
-  } else {
+  } else if
     
   }
   return 0;
