@@ -41,7 +41,7 @@ int main() {
   }
   if (xlhl == 1 && xlhk == 1) {
     printf("HOC_BONG_XUAT_SAC");
-  } else if () {
+  } else if (xlhl == 2 && (xlhk == 1 || xlhk == 2 || (xlhk == 1 && xlhk == 2) {
     printf("HOC_BONG_GIOI");
   } else if () {
     printf("HOC_BONG_KHA");
