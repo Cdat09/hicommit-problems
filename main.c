@@ -18,6 +18,6 @@ int main() {
     default:
       printf("XEP_LOAI_TRUNG_BINH"); 
       break;
-  
+  }
   return 0;
 }
