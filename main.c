@@ -29,7 +29,7 @@ int main() {
   } else {
 
   }
-  if () {
+  if (dtb >= 9.0 && drl >= 90) {
     printf("HOC_BONG_XUAT_SAC");
   } else if () {
     printf("HOC_BONG_GIOI");
