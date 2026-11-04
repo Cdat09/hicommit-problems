@@ -3,6 +3,7 @@
 int main() {
   float dtb;
   int drl;
+  int xlhb;
   scanf("%f", &dtb);
   scanf("%d", &drl);
   if (dtb >= 9.0) {
@@ -24,6 +25,17 @@ int main() {
     printf("KHA");
   } else if (drl < 70) {
     printf("KHONG_DAT");
+  } else {
+
+  }
+  if () {
+    printf("HOC_BONG_XUAT_SAC");
+  } else if () {
+    printf("HOC_BONG_GIOI");
+  } else if () {
+    printf("HOC_BONG_KHA");
+  } else if () {
+    printf ("KHONG_DAT");
   } else {
 
   }
