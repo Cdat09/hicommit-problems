@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+int min(int a, int b) {
+    return (a < b) ? a : b;
+}
+
 int main() {
     float dtb;
     int drl;
@@ -9,39 +13,19 @@ int main() {
     printf("Nhap diem ren luyen (drl): ");
     scanf("%d", &drl);
     
-    int hoc_luc = 0;
-    int ren_luyen = 0;
+    int hoc_luc = (dtb >= 9.0) ? 3 : (dtb >= 8.0) ? 2 : (dtb >= 7.0) ? 1 : 0;
     
-    if (dtb >= 9.0) {
-        hoc_luc = 3; 
-    } else if (dtb >= 8.0) {
-        hoc_luc = 2; 
-    } else if (dtb >= 7.0) {
-        hoc_luc = 1; 
-    } else {
-        hoc_luc = 0; 
-    }
+    int ren_luyen = (drl >= 90) ? 3 : (drl >= 80) ? 2 : (drl >= 70) ? 1 : 0;
     
-    if (drl >= 90) {
-        ren_luyen = 3; 
-    } else if (drl >= 80) {
-        ren_luyen = 2; 
-    } else if (drl >= 70) {
-        ren_luyen = 1; 
-    } else {
-        ren_luyen = 0; 
-    }
+    int muc_hoc_bong = min(hoc_luc, ren_luyen);
     
-    if (hoc_luc == 3 && ren_luyen == 3) {
+    if (muc_hoc_bong == 3) {
         printf("HOC_BONG_XUAT_SAC\n");
-    } 
-    else if ((hoc_luc == 2 && (ren_luyen == 2 || ren_luyen == 3)) || (hoc_luc == 3 && ren_luyen == 2)) {
+    } else if (muc_hoc_bong == 2) {
         printf("HOC_BONG_GIOI\n");
-    } 
-    else if ((hoc_luc == 1 && (ren_luyen >= 1)) || (hoc_luc == 2 && ren_luyen == 1) || (hoc_luc == 3 && ren_luyen == 1)) {
+    } else if (muc_hoc_bong == 1) {
         printf("HOC_BONG_KHA\n");
-    } 
-    else {
+    } else {
         printf("KHONG_DAT\n");
     }
     
