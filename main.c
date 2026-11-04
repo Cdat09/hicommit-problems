@@ -4,11 +4,11 @@ int main() {
   float dtb;
   int drl;
   int xlhk;
-  float xlhl;
+  int xlhl;
   scanf("%f", &dtb);
   scanf("%d", &drl);
   scanf("%d", &xlhk);
-  scanf("%f", &xlhl);
+  scanf("%d", &xlhl);
   if (dtb >= 9.0) {
     xlhl = 1; 
     printf("XUAT_SAC");
@@ -41,7 +41,7 @@ int main() {
   }
   if (xlhl == 1 && xlhk == 1) {
     printf("HOC_BONG_XUAT_SAC");
-  } else if (xlhl) {
+  } else if () {
     printf("HOC_BONG_GIOI");
   } else if () {
     printf("HOC_BONG_KHA");
