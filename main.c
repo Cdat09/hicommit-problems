@@ -17,7 +17,7 @@ int main() {
       printf("XEP_LOAI_TRUNG_BINH"); 
       break;
     default:
-      printf("XEP_LOAI_TRUNG_BINH"); 
+      printf("KHONG_HOP_LE"); 
       break;
   }
   return 0;
