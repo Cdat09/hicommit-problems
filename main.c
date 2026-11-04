@@ -11,8 +11,9 @@ int main() {
     printf("GIOI");
   } else if (7.0 <= dtb < 8.0) {
     printf("KHA");
-  } else  (dtb < 7.0) {
-    printf("KHONG_DAT")
+  } else if (dtb < 7.0) {
+    printf("KHONG_DAT");
+  } else {
     
   }
   return 0;
