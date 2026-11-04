@@ -15,7 +15,8 @@ int main() {
     case 4:
       printf("XEP_LOAI_TRUNG_BINH\n"); 
       break;
-    default("XEP_LOAI_TRUNG_BINH"); 
+    default:
+      printf("XEP_LOAI_TRUNG_BINH"); 
       break;
   
   return 0;
