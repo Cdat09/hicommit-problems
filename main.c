@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  switch(code){
+  switch(case){
     case 1;
       printf("XEP_LOAI_XUAT_SAC\n"); break;
     case 2;
