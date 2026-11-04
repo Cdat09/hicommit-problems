@@ -45,9 +45,8 @@ int main() {
     printf("HOC_BONG_GIOI");
   } else if () {
     printf("HOC_BONG_KHA");
-  } else if () {
-    printf ("KHONG_DAT");
   } else {
+    printf ("KHONG_DAT");
 
   }
   return 0;
