@@ -16,5 +16,14 @@ int main() {
   } else {
     
   }
+  if (drl >= 90) {
+    printf("XUAT_SAC");
+  } else if (80 <= drl < 90) {
+    printf("TOT");
+  } else if (70 <= drl < 80) {
+    printf("KHA");
+  } else if (drl < 70) {
+    printf("KHONG_DAT");
+  } else {
   return 0;
 }
