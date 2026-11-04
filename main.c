@@ -25,5 +25,7 @@ int main() {
   } else if (drl < 70) {
     printf("KHONG_DAT");
   } else {
+
+  }
   return 0;
 }
